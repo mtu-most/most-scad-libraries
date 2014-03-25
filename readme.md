@@ -1,1 +1,1 @@
-These SCAD libraries are called by many of the designs the MOST group creates. Look at the head of the design SCAD file and be sure to have all of the libraries or other SCAD files preceeded by include statements.
+Various SCAD files used in many of our designs.
