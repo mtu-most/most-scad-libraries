@@ -1,7 +1,12 @@
+include<gear_calculator.scad>
 include<fasteners.scad>
 include<bearings.scad>
 include<steppers.scad>
-use <Triangles.scad>
+use<Triangles.scad>
+
+// output shaft dims [d_nut, h_nut, d_shaft, od_bearing, id_bearing, h_bearing]
+op_M8 = [d_M8_nut, h_M8_nut + 3, d_M8_screw, od_608, id_608, h_608]; // M8 hobbed bolt
+op_M5 = [d_M5_nut, h_M5_nut + 0.5, d_M5_screw, od_625, id_625, h_625]; // M5 bolt
 
 // this only works with the assembly rendering - allows you to move through the cross section
 z_section = 20; // [0:100]
