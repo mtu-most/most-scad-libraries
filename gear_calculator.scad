@@ -69,6 +69,8 @@ function twist_for_helix_angle(helix_angle, pitch_radius, thickness) =
 
 // following are teeth numbers for selected gear ratios of planetary gear boxes
 function planetary_gears(ratio) = 
+	(ratio == 3.69) ? [13, 11, 35, 3] :
+	(ratio == 4.15) ? [13, 14, 41, 3] :
 	(ratio == 4.62) ? [13, 17, 47, 3] :
 	(ratio == 4.91) ? [11, 16, 43, 3] :
 	(ratio == 5.08) ? [13, 20, 53, 3] :

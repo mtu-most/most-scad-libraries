@@ -1,7 +1,8 @@
 //simple triangles
 
-module equilateral(h) {
-	isosoles(equilateral_base_from_height(h), h);
+module equilateral(h, center = false) {
+	translate([0, center ? -(h - equilateral_base_from_height(h) * tan(30) / 2) : 0, 0])
+		isosoles(equilateral_base_from_height(h), h);
 }
 
 module isosoles(b, h) {

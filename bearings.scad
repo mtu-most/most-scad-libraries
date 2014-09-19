@@ -7,7 +7,7 @@ h_608 = 7;
 bearing_608 = [od_608, id_608, h_608];
 
 // 624 bearing
-od_624 = 13.4;
+od_624 = 13;
 id_624 = 4.4;
 h_624 = 5;
 bearing_624 = [od_624, id_624, h_624];
@@ -25,10 +25,10 @@ id_lm8uu = 8; // should be 8 or so
 l_lm8uu = 24.5; // measured 24
 bearing_lm8uu = [od_lm8uu, id_lm8uu, l_lm8uu];
 
-// lm6uu bearing dims - guesses
-od_lm6uu = 11.5;
+// lm6uu bearing dims
+od_lm6uu = 12.8; // measured 12
 id_lm6uu = 6;
-l_lm6uu = 24.5;
+l_lm6uu = 19;
 bearing_lm6uu = [od_lm6uu, id_lm6uu, l_lm6uu];
 
 module bearing(type=608) {

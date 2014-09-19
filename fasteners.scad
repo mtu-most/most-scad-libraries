@@ -34,8 +34,8 @@ d_M5_nut = 9.3;
 h_M5_nut = 4.2; // measured 4.0
 
 d_M6_screw = 6.5;
-d_M6_nut = 11.3;
-h_M6_nut = 4.2;
+d_M6_nut = 11.8;
+h_M6_nut = 5.5;
 
 d_M8_screw = 8.4;
 d_M8_nut = 15;
